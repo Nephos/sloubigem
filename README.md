@@ -1,6 +1,8 @@
 SloubiGem
 ======
 
+[![Gem Version](https://badge.fury.io/rb/sloubi.png)](http://badge.fury.io/rb/sloubi)
+
 A simple Sloubi Gem
 
 `gem install sloubi`
