@@ -11,12 +11,12 @@ in your ruby-file / irb :
 
 ```
 require 'sloubi'
-Sloubi::Sloubi.count_sloubi(n) # n is an Integer
+Sloubi::Sloubi.count(n) # n is an Integer
 ```
 
 Usage
 ------
-count_sloubi n, ninit=1, v=false
+count_sloubi n=42, ninit=1, v=false
 n is the last sloubi will be count
 ninit is the first
 v is the condition to speak
