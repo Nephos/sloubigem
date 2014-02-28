@@ -14,6 +14,13 @@ require 'sloubi'
 Sloubi::Sloubi.count(n) # n is an Integer
 ```
 
+You can use Sloubi simply with
+```
+require 'sloubi'
+s = Sloubi::Sloubi
+s.count(n) # n is an Integer
+```
+
 Usage
 ------
 count_sloubi n=42, ninit=1, v=false

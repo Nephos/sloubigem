@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'sloubi'
-  s.version     = '1.3.1'
+  s.version     = '1.3.2'
   s.date        = '2014-02-28'
   s.summary     = "A simple sloubi gem"
   s.description = "require 'sloubi'

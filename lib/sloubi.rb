@@ -17,7 +17,6 @@ module Sloubi
           end
         end
       end
-      return i
     end
 
     #obsolet alias of count
