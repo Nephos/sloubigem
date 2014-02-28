@@ -3,8 +3,7 @@ Gem::Specification.new do |s|
   s.version     = '1.3.2'
   s.date        = '2014-02-28'
   s.summary     = "A simple sloubi gem"
-  s.description = "require 'sloubi'
-  		   Sloubi::Sloubi.count(424242, 4242, false)"
+  s.description = "require 'sloubi' ; Sloubi::Sloubi.count(424242, 4242, false)"
   s.authors     = [
   		  "poulet_a"
 		  ]
