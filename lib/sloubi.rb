@@ -1,10 +1,12 @@
 #encoding: utf-8
 
 module Sloubi
-  def count_sloubi n
-    return false if !n.is_a?Integer
-    n.times do |i|
-      puts "Sloubi #{i}"
+  class Sloubi
+    def self.count_sloubi n=42
+      return false if !n.is_a?Integer or n < 1
+      (1..n).each do |i|
+        puts "Sloubi #{i}"
+      end
     end
   end
 end
