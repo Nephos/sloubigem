@@ -34,3 +34,6 @@ On Ubuntu `` sudo apt-get install espeak ``
 On Archlinux `` sudo pacman -S espeak ``
 On Windows : go catch up with your soul !!
 Manual download : http://is.gd/CXLLnK
+
+
+See http://youtu.be/6fuGrFcQKlU and like to give me more money mouahaha
