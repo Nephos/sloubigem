@@ -13,3 +13,5 @@ in your ruby-file / irb :
 require 'sloubi'
 Sloubi::Sloubi.count_sloubi(n) # n is an Integer
 ```
+
+You can also add true or false as 2sd argument to speak (need espeak to works)
