@@ -14,4 +14,9 @@ require 'sloubi'
 Sloubi::Sloubi.count_sloubi(n) # n is an Integer
 ```
 
-You can also add true or false as 2sd argument to speak (need espeak to works)
+Usage
+------
+count_sloubi n, ninit=1, v=false
+n is the last sloubi will be count
+ninit is the first
+v is the condition to speak
