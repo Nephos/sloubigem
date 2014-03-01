@@ -8,11 +8,11 @@ module Sloubi
       return 0 if ninit > n
       if ninit == 0
         n.times do
-          Sloubi.sing(rand(1..n), v)
+          return n if Sloubi.sing(rand(1..n), v) == false
         end
       else
         (ninit..n).each do |i|
-          return i if sing(i) == false
+          return i if Sloubi.sing(i, v) == false
         end
       end
     end
