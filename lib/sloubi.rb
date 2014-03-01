@@ -12,7 +12,7 @@ module Sloubi
         end
       else
         (ninit..n).each do |i|
-          sing i
+          return i if sing(i) == false
         end
       end
     end
@@ -22,6 +22,7 @@ module Sloubi
       if v == true
         if i <= 99999999999999
           `espeak "Sloubi #{i}" -a 200 -vfr`
+          return true
         else
           `espeak "Je sais pas compter jusque là, moi !" -a 200 -vfr`
           return false
