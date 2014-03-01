@@ -6,15 +6,25 @@ module Sloubi
     def self.count n=42, ninit=1, v=false
       return 0 if !n.is_a?Integer or n < 1
       return 0 if ninit > n
-      (ninit..n).each do |i|
-        puts "Sloubi #{i}"
-        if v == true
-          if i <= 99999999999999
-            `espeak "Sloubi #{i}" -a 200 -vfr`
-          else
-            `espeak "Je sais pas compter jusque là, moi !" -a 200 -vfr`
-            return i
-          end
+      if ninit == 0
+        n.times do
+          Sloubi.sing(rand(1..n), v)
+        end
+      else
+        (ninit..n).each do |i|
+          sing i
+        end
+      end
+    end
+
+    def self.sing i, v=false
+      puts "Sloubi #{i}"
+      if v == true
+        if i <= 99999999999999
+          `espeak "Sloubi #{i}" -a 200 -vfr`
+        else
+          `espeak "Je sais pas compter jusque là, moi !" -a 200 -vfr`
+          return false
         end
       end
     end
